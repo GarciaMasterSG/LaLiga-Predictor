@@ -1,0 +1,101 @@
+#model-form-div{
+    width: 90%;
+    height: 93%;
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    border: 3px solid #FF4B44;
+    box-shadow: 0px 0px 10px 0px #FF4B44;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#model-form{
+    padding-top: 20px;
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#model-form button{
+    height: 60px;
+    width: 350px;
+    background-color: #fc544e;
+    color: white;
+    font-family: Oswald;
+    cursor: pointer;
+    font-size: 30px;
+    transition: transform 0.2s;
+}
+
+#model-form button:hover{
+    transform: translateY(-2px);
+}
+
+#model-form button:active{
+    transform: translateY(0px);
+}
+
+#form-container{
+    display: flex;
+    gap: 20px;
+}
+
+.model-forms{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.model-forms input{
+    height: 60px;
+    width: 350px;
+    border: 1px solid black;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Oswald;
+    font-size: 20px;
+}
+
+.model-forms input:focus{
+    outline: none;
+    border: 2px solid black
+}
+
+#Team-Selection{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#Team-Selection select{
+    height: 60px;
+    width: 350px;
+    border: 1px solid black;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Oswald;
+    font-size: 20px;
+}
+
+#Team-Selection select:focus{
+    outline: none;
+    border: 2px solid black
+}
+
+#Team-Selection img{
+    height: 300px;
+    width: 300px;
+}
